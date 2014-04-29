@@ -22,4 +22,3 @@ The time it takes for the dispatcher to stop one process and start another one:
 This is responsible for selecting between processes that are ready to execute and allocate CPU time to one of them:
 This occurs when a process is in its critical section and another process must continuously loop trying to enter its critical section:
 This controls the amount of multiprogramming in a system by loading processes from secondary storage into memory:
-A collection of physically separate, possibly heterogeneous computer systems, networked to provide users with access to the various resources that the system maintains:

@@ -22,4 +22,3 @@ Dispatch latency
 Short-term scheduler
 Busy waiting
 Long-term scheduler
-Distributed system
