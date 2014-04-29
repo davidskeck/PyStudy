@@ -6,8 +6,8 @@ import random
 import settings
 
 
-def welcome(n):
-    print("Welcome to PyStudy!")
+def welcome(n, name):
+    print("\nYou have selected " + name + ".")
     print('Your quiz will consist of {} questions.'.format(n))
     print("Tyoe \"exit\" at anytime to quit.\n")
 
@@ -62,9 +62,9 @@ def get_answer(random_choices, answers, n):
         return ans
 
 
-def start(questions, answers):
+def start(questions, answers, name):
 
-    welcome(len(questions))
+    welcome(len(questions), name)
     randomize(questions, answers)
 
     missed_questions = []
