@@ -1,7 +1,9 @@
 PyStudy
 =======
 
-PyStudy is an open-source tool that can be used to study any subject.
+PyStudy is a tool to study any subject. Users can create tests using any question and answer set.
+
+NOTE: Python 3.x is required.
 
 Usage
 =====
@@ -12,8 +14,13 @@ In this new folder, make an answers.txt and questions.txt file.
 
 In these files, each question and answer should be on corresponding line numbers.
 
-i.e. questions.txt line 1 contains "What is PyStudy?"
-     answers.txt line 1 should contain "A Python program that can be used to learn any subject!"
+i.e. 
+
+
+questions.txt line 1 contains "What is PyStudy?"
+
+
+answers.txt line 1 should contain "A Python program that can be used to learn any subject!"
 
 License
 =======
