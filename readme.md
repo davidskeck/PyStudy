@@ -14,7 +14,7 @@ In this new folder, make an answers.txt and questions.txt file.
 
 In these files, each question and answer should be on corresponding line numbers.
 
-i.e. 
+Example:
 
 
 questions.txt line 1 contains "What is PyStudy?"
