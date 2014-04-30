@@ -13,6 +13,10 @@ def main():
     # get dir names
     tests = (os.walk('.').__next__()[1])
 
+    # remove pycache if present
+    while "__pycache__" in tests:
+        tests.remove("__pycache__")
+
     # print available tests
     for i, test in enumerate(tests):
         print('{}: {}'.format(i+1, test))
