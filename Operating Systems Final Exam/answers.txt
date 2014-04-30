@@ -1,0 +1,49 @@
+Process deadlock
+Remote procedural call
+Signal
+Cascading termination
+Race condition
+Time quantum
+Process aging
+Load balancing
+Binary semaphore
+Light-weight process
+Hyper-threading
+Socket
+Processor affinity
+CPU-burst
+Stack
+Heap
+Text section
+Critical section
+Process or thread starvation
+Thread cancellation
+Dispatch latency
+Short-term scheduler
+Busy waiting
+Long-term scheduler
+Distributed system
+Control card
+Beowulf cluster
+System call
+Process
+Firewall
+Kernel mode
+GUI
+Multiprogramming
+API
+Graceful degradation
+NUMA
+Bytecode
+Xerox PARC
+IBM
+Multiprocessing
+Command interpreter
+Symmetric multiprocessing
+Security
+Kernel
+Bootstrap program
+Program counter
+Caching
+Debugger
+Dual-mode operation

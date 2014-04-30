@@ -1,0 +1,24 @@
+Process deadlock
+Remote procedural call
+Signal
+Cascading termination
+Race condition
+Time quantum
+Process aging
+Load balancing
+Binary semaphore
+Light-weight process
+Hyper-threading
+Socket
+Processor affinity
+CPU-burst
+Stack
+Heap
+Text section
+Critical section
+Process or thread starvation
+Thread cancellation
+Dispatch latency
+Short-term scheduler
+Busy waiting
+Long-term scheduler

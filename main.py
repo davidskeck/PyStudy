@@ -19,10 +19,15 @@ def main():
 
     ans = int(input("\nWhich test would you like to take? "))
 
+    while ans < 1 or ans > len(tests):
+        ans = int(input("\nThat is not a valid test selection. Try again: "))
+
+    test_name = tests[ans-1]
+
     # open question and answer files
     try:
-        answer_file = open(tests[ans-1] + '/answers.txt', 'r')
-        question_file = open(tests[ans-1] + '/questions.txt', 'r')
+        answer_file = open(test_name + '/answers.txt', 'r')
+        question_file = open(test_name + '/questions.txt', 'r')
     except IOError:
         print("Error: one or more files cannot be found.")
         return 0
@@ -37,8 +42,14 @@ def main():
         answer_file.close()
         question_file.close()
 
+    if len(questions) != len(answers):
+        print("There is a problem with your {} files.".format(test_name))
+        print("Make sure that you have an equal number of questions and answers.")
+        print("PyStudy will now close...")
+        exit()
+
     # start the quiz
-    quiz.start(questions, answers, tests[ans-1])
+    quiz.start(questions, answers, test_name)
 
     # give time to read results
     try:

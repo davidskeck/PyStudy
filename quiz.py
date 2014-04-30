@@ -9,7 +9,7 @@ import settings
 def welcome(n, name):
     print("\nYou have selected " + name + ".")
     print('Your quiz will consist of {} questions.'.format(n))
-    print("Tyoe \"exit\" at anytime to quit.\n")
+    print("Type \"exit\" at anytime to quit.\n")
 
 
 def randomize(questions, answers):

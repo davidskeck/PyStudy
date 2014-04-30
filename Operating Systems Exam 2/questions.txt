@@ -1,0 +1,24 @@
+A condition where two or more processes or threads hold a resource that the others want and will not give up:
+A means by which a client can invoke a procedure that lies on a remote host:
+A mechanism used by UNIX OS to notify a process or thread that an event has occurred:
+A process that happens when a parent process is terminated and all its child processes are systematically terminated as a result:
+A situation where the final result of shared data depends upon the order in which the cooperating processes accessed the data:
+A small amount of time that a process is allowed to be in the CPU before it is interrupted by a round-robin scheduler:
+A technique for gradually increasing the priority of processes that wait in a system for a long time:
+A technique which attempts to keep the workload evenly distributed between processors in a symmetric multiprogramming system:
+A variable that is used to provide mutual exclusion to a critical section of a process:
+A virtual processor that runs on top of a kernel thread in some operating systems. It is what user threads run on:
+Also known as symmetric multi-threading:
+An endpoint for communication that is identified by an IP address concatenated with a port number:
+In a symmetric multiprogramming system, the OS tries to keep a particular process running on the same processor:
+The amount of time that a process spends in the CPU:
+The area of a process where local variables are stored in memory:
+The area of a process where dynamic variables are stored in memory:
+The area of a process where the code is stored in memory:
+The code part of a process that accesses shared data between cooperating processes or threads:
+The result of a process that never gets to run because of being preempted by other processes:
+The task of terminating a thread before it has completed:
+The time it takes for the dispatcher to stop one process and start another one:
+This is responsible for selecting between processes that are ready to execute and allocate CPU time to one of them:
+This occurs when a process is in its critical section and another process must continuously loop trying to enter its critical section:
+This controls the amount of multiprogramming in a system by loading processes from secondary storage into memory:

@@ -1,0 +1,49 @@
+A condition where two or more processes or threads hold a resource that the others want and will not give up:
+A means by which a client can invoke a procedure that lies on a remote host:
+A mechanism used by UNIX OS to notify a process or thread that an event has occurred:
+A process that happens when a parent process is terminated and all its child processes are systematically terminated as a result:
+A situation where the final result of shared data depends upon the order in which the cooperating processes accessed the data:
+A small amount of time that a process is allowed to be in the CPU before it is interrupted by a round-robin scheduler:
+A technique for gradually increasing the priority of processes that wait in a system for a long time:
+A technique which attempts to keep the workload evenly distributed between processors in a symmetric multiprogramming system:
+A variable that is used to provide mutual exclusion to a critical section of a process:
+A virtual processor that runs on top of a kernel thread in some operating systems. It is what user threads run on:
+Also known as symmetric multi-threading:
+An endpoint for communication that is identified by an IP address concatenated with a port number:
+In a symmetric multiprogramming system, the OS tries to keep a particular process running on the same processor:
+The amount of time that a process spends in the CPU:
+The area of a process where local variables are stored in memory:
+The area of a process where dynamic variables are stored in memory:
+The area of a process where the code is stored in memory:
+The code part of a process that accesses shared data between cooperating processes or threads:
+The result of a process that never gets to run because of being preempted by other processes:
+The task of terminating a thread before it has completed:
+The time it takes for the dispatcher to stop one process and start another one:
+This is responsible for selecting between processes that are ready to execute and allocate CPU time to one of them:
+This occurs when a process is in its critical section and another process must continuously loop trying to enter its critical section:
+This controls the amount of multiprogramming in a system by loading processes from secondary storage into memory:
+A collection of physically separate, possibly heterogeneous computer systems, networked to provide access to the various resources that the system maintains:
+A command to manage the execution of a process in a batch system:
+A computer system in which multiple commodity computers are connected together by a network using MPI to perform parallel processing:
+A function that is part of the OS that handles user requests for system resources such as IO:
+A program that is loaded into memory and is executing:
+A system that protects networks from security breaches:
+In a modern OS, system processes execute here:
+In 1984, Apple Computer introduced the Mac and was the first company to implement this type of user interface for the retail marketplace:
+Running multiple jobs on a single processor:
+The .NET framework would be an example of this:
+The ability to continue providing service proportional to the level of surviving hardware in a parallel system:
+The AMD Opteron processor uses this type of processing in which each processor has its own local memory and cache:
+The code that makes up a Java .class file:
+This company originated the first graphical device interface:
+This company created and implemented the first virtual machine for computer systems:
+Two or more processes executing at the same time on two or more processors:
+Any of the shell programs in the Unix/Linux OS are examples of this:
+The Intel quad core duo uses this type of processing where all the processors are peers sharing the same memory and bus:
+The job of defending a system from internal or external attacks:
+The heart of an operating system:
+The program that is stored in the system BIOS and is responsible for loading the kernel and initializing it:
+The register in a CPU that keeps track of the next instruction to execute in a process:
+The technique of moving information to a temporary, more accessible location for quicker use:
+This is used by programmers and developers to help find and fix errors in programs:
+This is used by all modern operating systems so that the accessing of system resources is done through system processes and not by user processes:
