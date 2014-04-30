@@ -47,3 +47,25 @@ The register in a CPU that keeps track of the next instruction to execute in a p
 The technique of moving information to a temporary, more accessible location for quicker use:
 This is used by programmers and developers to help find and fix errors in programs:
 This is used by all modern operating systems so that the accessing of system resources is done through system processes and not by user processes:
+Secondary storage that is used as a swapping device to hold processes to be swapped into and out memory:
+This page replacement method is used by some systems to implement the LRU method of page replacement:
+In this memory management method, memory consists of two parts, one part for the OS and the other part for a single process:
+The method of keeping a deadlock from happening by making sure that the causes of a deadlock do not occur:
+This is the process of connecting needed object code to a process after it is loaded into memory:
+Memory management scheme used by the MINIX OS:
+This method of allocating free page frames will take frames away from any executing process:
+A means of tracking every process's pages by using a single table which contains a one-to-one mapping of its entries to page frames:
+This method of allocating free page frames will take frames away from the process's own allocated frames:
+Hardware that maps logical addresses to physical addresses:
+DOS uses this technique in order to get sufficient memory for a user process:
+This happens when a page is not found in memory:
+The fixed sized-blocks that physical memory is divided into in an OS using a paging system:
+The part of a process in memory in memory that keeps track of the location of the mapping process's pages into physical memory:
+Memory management scheme used by Linux and Windows:
+A paging scheme in which no pages of a process exist initially in memory, but are brought in one at a time as needed:
+This memory management method best approximates the user's view of memory:
+This is the process of connecting needed object code to a process before it is loaded into memory:
+This is the excessive swapping of pages in and out of memory from the hard drive:
+A hardware component of a CPU that is used to track pages in memory for the current executing process:
+The logical addressable memory of a computer system:
+The set of active pages of a process that approximates the program's locality:

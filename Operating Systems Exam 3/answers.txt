@@ -1,0 +1,22 @@
+Backing store
+Clock algorithm
+Contiguous memory allocation
+Deadlock prevention
+Dynamic linking
+Dynamic partition (free hole method)
+Global replacement
+Inverted page table
+Local replacement
+MMU
+Overlay
+Page fault
+Page frames
+Page table
+Paging
+Pure demand paging
+Segmentation
+Static linking
+Thrashing
+Translation look-aside buffer
+Virtual memory
+Working set
