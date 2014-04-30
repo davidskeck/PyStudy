@@ -11,7 +11,7 @@ def main():
     print("The following tests are installed:")
 
     # get dir names
-    tests = (os.walk('.').next()[1])
+    tests = (os.walk('.').__next__()[1])
 
     # print available tests
     for i, test in enumerate(tests):

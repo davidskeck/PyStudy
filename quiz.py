@@ -13,7 +13,7 @@ def welcome(n, name):
 
 
 def randomize(questions, answers):
-    combined = zip(questions, answers)
+    combined = list(zip(questions, answers))
     random.shuffle(combined)
 
     questions[:], answers[:] = zip(*combined)
