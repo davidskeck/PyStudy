@@ -3,6 +3,7 @@ __author__ = 'David Keck'
 
 import quiz
 import os
+import settings
 
 
 def main():
@@ -46,9 +47,10 @@ def main():
         answer_file.close()
         question_file.close()
 
-    if len(questions) != len(answers):
+    if len(questions) != len(answers) or len(questions) < settings.CHOICES:
         print("There is a problem with your {} files.".format(test_name))
         print("Make sure that you have an equal number of questions and answers.")
+        print("Also, you must have at least {} questions per exam.".format(settings.CHOICES))
         print("PyStudy will now close...")
         exit()
 
