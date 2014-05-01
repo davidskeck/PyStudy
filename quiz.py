@@ -25,6 +25,7 @@ def randomize(questions, answers):
 
 def random_answers(answers, n):
 
+    # holds randomly selected answers + correct answer
     random_choices = []
 
     # remove correct answer so it does not get listed again
