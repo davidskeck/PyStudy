@@ -103,10 +103,9 @@ def start(questions, answers, name):
             missed_answers.append(answers[i])
 
         # make score a percentage of correct answers and display it
-        score = ((i+1)-len(missed_questions))/len(questions)*100
+        score = (((i+1)-len(missed_questions))/(i+1))*100
 
         print('Your current score: {}\n'.format("%.2f" % score))
-
 
     if len(missed_questions) != 0:
         for i in range(len(missed_questions)):
