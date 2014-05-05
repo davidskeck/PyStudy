@@ -11,7 +11,7 @@ Hardware that maps logical addresses to physical addresses:
 DOS uses this technique in order to get sufficient memory for a user process:
 This happens when a page is not found in memory:
 The fixed sized-blocks that physical memory is divided into in an OS using a paging system:
-The part of a process in memory in memory that keeps track of the location of the mapping process's pages into physical memory:
+The part of a process in memory that keeps track of the location of the mapping process's pages into physical memory:
 Memory management scheme used by Linux and Windows:
 A paging scheme in which no pages of a process exist initially in memory, but are brought in one at a time as needed:
 This memory management method best approximates the user's view of memory:

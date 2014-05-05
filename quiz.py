@@ -68,6 +68,7 @@ def get_answer(random_choices, answers, n):
     # if the answer is correct
     if random_choices[ans-1] == answers[n]:
         print(random.choice(settings.ENCOURAGEMENT))
+        print()
         return 0
 
     else:
@@ -100,6 +101,12 @@ def start(questions, answers, name):
         if ans != 0:
             missed_questions.append(questions[i])
             missed_answers.append(answers[i])
+
+        # make score a percentage of correct answers and display it
+        score = ((i+1)-len(missed_questions))/len(questions)*100
+
+        print('Your current score: {}\n'.format("%.2f" % score))
+
 
     if len(missed_questions) != 0:
         for i in range(len(missed_questions)):
